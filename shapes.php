@@ -1,6 +1,8 @@
 <?php
 
+
 // Ask user for shape
+
 $shape = readline("Enter your shape: ");
 
 // Ask user for shape inputs
@@ -47,8 +49,9 @@ else if ($shape == "ellipse") {
   echo "area = " . ($a * $b * 3.14159) . "\n";
 }
 
+
 else {
-echo "area caluclations not available for this shape \n";
+echo "area caluclations not available for this shape. \n";
 }
 
 ?>
